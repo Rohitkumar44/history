@@ -1,0 +1,71 @@
+ 111  cd devOps/git/
+  112  git lfs install
+  113  mkdir lfs
+  114  cd lfs
+  115  git init
+  116  git lfs track "*.jpeg"
+  117  ls -a
+  118*
+  119  git lfs track ".mov"
+  120  cat .gitattributes
+  121  echo "">>file1.jpeg
+  122  cat file.jpeg
+  123  git add .
+  124  git commit -m "Image file"
+  125  git remote add origin git remote add origin git@github.com:Rohitkumar44/lfs.git
+  126  git remote add origin git@github.com:Rohitkumar44/lfs.git
+  127  git status
+  128  git push
+  129  git push -u origin maser
+  130  git push -u origin master
+  131  ls
+  132  cat file1.jpeg
+  133  cd ..
+  134  rm -rf lfs
+  135  git clone git@github.com:Rohitkumar44/lfs.git
+  136  ls
+  137  cd lfs/
+  138  echo "test" > test.jpeg
+  139  ls
+  140  ls -a
+  141  git lfs track "*.jpeg"
+  142  ls -a
+  143  git add .
+  144  git commit -m "test lfs"
+  145  git push
+  146  echo "Hello everyone">>file2.txt
+  147  git add .
+  148  git commit -m "learning sigined commit" --author="Narendra Modi<narendramodi@gmail.com>"
+  149  git log --oneline
+  150  git log
+  151  gpg --full-generate-key
+  152  gpg --list-secret-key --keyid-format long
+  153  gpg --list-secret-keys --keyid-format long
+  154  echo "newfile">>file3.txt
+  155  git add .
+  156  git commit -m "adding new file"
+  157  git push
+  158  echo "file4">>file4.txt
+  159  git add .
+  160  git commit -s -m "encryption"
+  161  git log
+  162  git log --show-signature
+  163  git config --global commit.gpgsign true
+  164  git commit -s -m "encryption"
+  165  history
+  166  git commit -S -m "encryption"
+  167  echo "testing" >> test.txt
+  168  git add .
+  169  git commit -S -m "sing test"
+  170  gpg --list-secret-keys --keyid-format long
+  171  git config --global user.signingkey
+  172  git config --global user.signingkey E5F05DE6811EE521
+  173  git config --global commit.gpgsign true
+  174  git commit -S -m "learn sign"
+  175  git log
+  176  git log --show-signature
+  177  git push
+  178  gpg --armor --export rkrmkr4@gmail.com
+  179  gpg --armor --export rkrmkr4@gmail.com >> a.txt
+  180  git log --export >> logfile.txt
+  181  history
